@@ -1,0 +1,26 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    cout << "Digite os numeros desejados:" << endl;
+    int c = 10;
+    int a[c] [c];
+    for(int i =0; i < c; i++){
+        for(int q = 0; q < c; q++){
+            cin >> a[i][q];
+        }
+    }
+
+    for(int i =0; i < c; i++){
+        cout << endl;
+        for(int q = 0; q < c; q++){
+            cout << "\t" << a[i][q];
+        }
+    }
+
+
+
+    return 0;
+}
