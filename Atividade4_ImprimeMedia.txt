@@ -1,0 +1,35 @@
+#include iostream
+
+using namespace std;
+
+int main()
+{   
+    int soma = 0;
+    int menor = 0;
+    int maior = 0;
+    int media = 0;
+    int num = 0;
+    cout  Digite 1 numero  endl;
+    cin  num;
+    maior = num;
+    menor = num; 
+    for(int i =0; i  9; i++){
+        cout  Digite 1 numero  endl;
+        cin  num;
+        soma = soma + num; 
+        if (num = menor)
+        {
+            menor = num;
+        }
+
+        if (num = maior)
+        {
+            maior = num;
+        }
+        
+    }
+    cout  O valor da media e   soma10  endl;
+    cout  O Maior valor e   maior  endl;
+    cout  O menor valor e   menor  endl;
+    return 0;
+}
